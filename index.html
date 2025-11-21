@@ -12,12 +12,12 @@
 
 <body>
     <header>
-        <!-- logo -->
+        <a href="#home">Início</a>
         <nav>
             <a href="#destinos">Destinos</a>
             <a href="#sobre">Sobre</a>
-            <a href="#duvidas">Dúvidas</a>
-            <a href="#agendamento">Agendamento</a>
+            <a href="#faq">Dúvidas</a>
+            <a href="#agendar">Agendamento</a>
         </nav>
     </header>
 
@@ -32,9 +32,9 @@
                 que te leva ao<br>
                 coração do Brasil.
             </h1>
-            <div id="home-btn-container">
-                <button id="destino-btn">Destinos disponíveis</button>
-                <button id="agendar-btn">Quero agendar minha viagem!</button>
+            <div id="home-action-container">
+                <p><a href="#destinos">Conferir destinos disponíveis</a></p>
+                <p><a href="#agendar">Agendar viagem</a></p>
             </div>
         </div>
     </section>
@@ -89,51 +89,70 @@
     <section id="sobre">
         <h1>Sobre Nós</h1>
         
-        <div class="paragrafo-container">
-            <img id="img1" src="./images/green-parrots-in-amazon-rainforest-village.webp" alt="">
-            <p>
-                Na Partiu Brasil, acreditamos que viajar é mais do que conhecer novos lugares — é sentir a essência de cada
-                destino. Somos uma agência de viagens apaixonada pelas belezas naturais do nosso país e dedicada a criar
-                experiências autênticas para quem deseja explorar o Brasil de forma profunda, responsável e inspiradora.
-            </p>
-        </div>
-
-        <div class="paragrafo-container">
-            <p>
-                Nascemos do desejo de conectar pessoas à diversidade dos nossos biomas: da imensidão verde da Amazônia às
-                águas cristalinas do Cerrado, das trilhas desafiadoras da Mata Atlântica às paisagens únicas do Pantanal e
-                da Caatinga. Nosso propósito é mostrar que o Brasil é um universo inteiro a céu aberto, cheio de vida,
-                cores, sons e histórias.
-            </p>
-            <img id="img2" src="./images/08.jpg" alt="">
-        </div>
-
-        <div id="chamada-container">
-            <p>
-                Seja para relaxar, se aventurar, mergulhar, caminhar ou simplesmente contemplar, estamos aqui para planejar
-                a viagem perfeita para você.
-            </p>
-            <h2>Partiu explorar, partiu viver, <text-gradient>Partiu Brasil!</text-gradient></h2>
+        <div id="sobre-container">
+            <div class="paragrafo-container">
+                <img id="img1" src="./images/green-parrots-in-amazon-rainforest-village.webp" alt="">
+                <p>
+                    Na Partiu Brasil, acreditamos que viajar é mais do que conhecer novos lugares — é sentir a essência de cada
+                    destino. Somos uma agência de viagens apaixonada pelas belezas naturais do nosso país e dedicada a criar
+                    experiências autênticas para quem deseja explorar o Brasil de forma profunda, responsável e inspiradora.
+                </p>
+            </div>
+    
+            <div class="paragrafo-container">
+                <p>
+                    Nascemos do desejo de conectar pessoas à diversidade dos nossos biomas: da imensidão verde da Amazônia às
+                    águas cristalinas do Cerrado, das trilhas desafiadoras da Mata Atlântica às paisagens únicas do Pantanal e
+                    da Caatinga. Nosso propósito é mostrar que o Brasil é um universo inteiro a céu aberto, cheio de vida,
+                    cores, sons e histórias.
+                </p>
+                <img id="img2" src="./images/08.jpg" alt="">
+            </div>
+    
+            <div id="chamada-container">
+                <p>
+                    Seja para relaxar, se aventurar, mergulhar, caminhar ou simplesmente contemplar, estamos aqui para planejar
+                    a viagem perfeita para você.
+                </p>
+                <h2>Partiu explorar, partiu viver, <text-gradient>Partiu Brasil!</text-gradient></h2>
+            </div>
         </div>
     </section>
 
-    <section id="duvidas">
+    <section id="faq">
         <h1>Perguntas Frequentes</h1>
-        <div class="pergunta">
-            <p>A Partiu Brasil é uma empresa confiável?</p>
-        </div>
-        <div class="pergunta">
-            <p>A Partiu Brasil é uma empresa confiável?</p>
-        </div>
-        <div class="pergunta">
-            <p>A Partiu Brasil é uma empresa confiável?</p>
+        <div id="perguntas-container">
+            <details>
+                <summary>A Partiu Brasil é uma empresa confiável?</summary>
+                <p>
+                    Com nota 10 no ReclameAqui e inúmeros relatos positivos de clientes reais, a Partiu Brasil trabalha todo dia para entregar os melhores serviços e confiabilidade para seus clientes.
+                </p>
+            </details>
+            <details>
+                <summary>A empresa se responsabiliza pela estadia?</summary>
+                <p>
+                    Sim, garantimos que nossos clientes tenham acesso as melhores opções de estadia para qualquer que seja o destino.
+                </p>
+            </details>
+            <details>
+                <summary>A Partiu Brasil é uma empresa confiável?</summary>
+                <p>
+                    Com nota 10 no ReclameAqui e inúmeros relatos positivos de clientes reais, a Partiu Brasil trabalha todo dia para entregar os melhores serviços e confiabilidade para seus clientes.
+                </p>
+            </details>
         </div>
     </section>
 
-    <section id="agendamento">
+    <section id="agendar">
         <h1>Agende sua viagem!</h1>
-        <p>Clique no botão abaixo agende sua viagem!</p>
-        <button>Agendar</button>
+        <div id="agendar-content">
+            <h1>Entre em contato e agende sua viagem conosco!</h1>
+            <div id="contatos-container">
+                <button class="contato-btn">Whatsapp</button>
+                <button class="contato-btn">Instagram</button>
+                <button class="contato-btn">Email</button>
+            </div>
+        </div>
     </section>
 
     <footer>
